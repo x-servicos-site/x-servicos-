@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>XServiços Futurista</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@500&display=swap" rel="stylesheet">
+  <style>
+    * {{ margin: 0; padding: 0; box-sizing: border-box; }}
+    body {{
+      font-family: 'Orbitron', sans-serif;
+      background: linear-gradient(to right, #1f1c2c, #928dab);
+      color: #fff;
+      text-align: center;
+    }}
+    header {{
+      padding: 2rem;
+      background: rgba(0, 0, 0, 0.6);
+    }}
+    header h1 {{
+      font-size: 2.5rem;
+      margin-bottom: 0.5rem;
+      color: #00ffe0;
+    }}
+    header p {{
+      font-size: 1.1rem;
+      color: #d1d1d1;
+    }}
+    section.services {{
+      padding: 2rem;
+      background-image: url('https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=1400&q=80');
+      background-size: cover;
+      background-position: center;
+      background-attachment: fixed;
+      position: relative;
+    }}
+    section.services::before {{
+      content: "";
+      position: absolute;
+      top: 0; left: 0;
+      width: 100%; height: 100%;
+      background: rgba(0, 0, 0, 0.6);
+    }}
+    section.services .content {{
+      position: relative;
+      z-index: 1;
+    }}
+    h2 {{
+      color: #00ffe0;
+      font-size: 2rem;
+      margin-bottom: 1rem;
+    }}
+    .card {{
+      background: rgba(255,255,255,0.1);
+      margin: 1rem auto;
+      max-width: 400px;
+      border: 1px solid #00ffe0;
+      border-radius: 10px;
+      padding: 1rem;
+      text-align: left;
+    }}
+    .card h3 {{
+      color: #fff;
+      font-size: 1.2rem;
+    }}
+    .card p {{
+      color: #00ffe0;
+      font-weight: bold;
+    }}
+    .whatsapp-button {{
+      display: inline-block;
+      margin-top: 1rem;
+      padding: 0.5rem 1rem;
+      background: #25d366;
+      color: #fff;
+      border-radius: 30px;
+      text-decoration: none;
+      font-weight: bold;
+    }}
+    footer {{
+      background: rgba(0, 0, 0, 0.8);
+      padding: 1rem;
+      font-size: 0.9rem;
+    }}
+  </style>
+</head>
+<body>
+  <header>
+    <h1>XServiços Futurista</h1>
+    <p>Montagem de móveis, elétrica e manutenção com estilo e tecnologia</p>
+  </header>
+
+  <section class="services">
+    <div class="content">
+      <h2>Serviços e Preços</h2>
+      <div class="card">
+        <h3>Guarda-roupa planejado</h3>
+        <p>R$150</p>
+      </div>
+      <div class="card">
+        <h3>Cama casal com baú</h3>
+        <p>R$90</p>
+      </div>
+      <div class="card">
+        <h3>Instalação de luminárias LED</h3>
+        <p>R$80</p>
+      </div>
+      <div class="card">
+        <h3>Ventilador de teto com controle</h3>
+        <p>R$140</p>
+      </div>
+      <div class="card">
+        <h3>Suporte de TV articulado</h3>
+        <p>R$100</p>
+      </div>
+      <a href="https://wa.me/5548991036145" target="_blank" class="whatsapp-button">Agendar pelo WhatsApp</a>
+    </div>
+  </section>
+
+  <footer>
+    <p>Atendimento em São José/SC e região. WhatsApp: (48) 99103-6145</p>
+  </footer>
+</body>
+</html>
