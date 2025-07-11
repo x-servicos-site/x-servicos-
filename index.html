@@ -1,142 +1,371 @@
-
 <!DOCTYPE html>
-<html lang="pt-br">
+<html lang="pt-BR">
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>X Serviços</title>
-  <style>
-    body {
-      font-family: 'Poppins', sans-serif;
-      margin: 0;
-      background: #f8f9fa;
-      color: #333;
-    }
-    header {
-      background-color: #004aad;
-      color: #fff;
-      padding: 1rem;
-      text-align: center;
-    }
-    header h1 {
-      font-size: 1.8rem;
-      margin: 0;
-    }
-    header p {
-      margin: 0.3rem 0 0;
-    }
-    .hero {
-      padding: 1.5rem;
-      text-align: center;
-    }
-    .hero h1 {
-      font-size: 1.5rem;
-      margin-bottom: 0.5rem;
-    }
-    .hero p {
-      font-size: 1rem;
-      color: #555;
-    }
-    .section-title {
-      background: #eee;
-      padding: 1rem;
-      font-weight: bold;
-    }
-    .service {
-      padding: 1rem;
-      border-bottom: 1px solid #ddd;
-    }
-    .service h3 {
-      margin: 0 0 0.3rem;
-      font-size: 1.1rem;
-    }
-    .service p {
-      margin: 0.2rem 0;
-      color: #555;
-    }
-    .btn {
-      display: inline-block;
-      margin-top: 0.5rem;
-      background: #ff7b00;
-      color: white;
-      padding: 0.4rem 1rem;
-      border-radius: 6px;
-      text-decoration: none;
-      font-weight: bold;
-    }
-    footer {
-      text-align: center;
-      padding: 1rem;
-      background: #004aad;
-      color: white;
-    }
-    .whatsapp {
-      color: #fff;
-      text-decoration: none;
-      font-weight: bold;
-    }
-  </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>X-Serviços - Manutenção e Montagens</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
 <body>
-  <header>
-    <h1>X Serviços</h1>
-    <p>Montagem, elétrica e manutenção com preço justo</p>
-  </header>
+    <header>
+        <h1>X-Serviços: Sua Solução em Manutenção e Montagens!</h1>
+        <p>Qualidade e confiança ao seu alcance.</p>
+    </header>
 
-  <section class="hero">
-    <h1>Montagem rápida e manutenção prática</h1>
-    <p>Escolha o serviço, veja o preço e agende na hora.</p>
-  </section>
+    <nav>
+        <ul>
+            <li><a href="#instalacoes">Instalações</a></li>
+            <li><a href="#montagens">Montagens e Desmontagens</a></li>
+            <li><a href="#eletrica">Serviços Elétricos</a></li>
+            <li><a href="#reparos">Reparos em Móveis</a></li>
+            <li><a href="#contato">Contato e Agendamento</a></li>
+        </ul>
+    </nav>
 
-  <div class="section-title">Montagem de Móveis</div>
-  <div class="service">
-    <h3>Guarda-roupa 3 portas</h3>
-    <p>R$120</p>
-    <a class="btn" href="#">Agendar</a>
-  </div>
-  <div class="service">
-    <h3>Cama box</h3>
-    <p>R$60</p>
-    <a class="btn" href="#">Agendar</a>
-  </div>
-  <div class="service">
-    <h3>Painel para TV</h3>
-    <p>R$90</p>
-    <a class="btn" href="#">Agendar</a>
-  </div>
+    <main>
+        <section id="instalacoes" class="service-section">
+            <h2 style="color: #4B0082;">Instalações que Facilitam Sua Vida!</h2>
+            <p class="slogan">Do suporte de TV à máquina de lavar, tudo instalado com perfeição.</p>
+            <div class="service-item">
+                <h3>Instalação de Suportes de TV</h3>
+                <p>Garanta a segurança e o melhor ângulo para sua TV. Preço: R$ 80,00</p>
+                <img src="https://via.placeholder.com/150/8A2BE2/FFFFFF?text=Suporte+TV" alt="Suporte de TV">
+                <a href="https://wa.me/5548991036145?text=Olá! Gostaria de agendar a instalação de suporte de TV." class="whatsapp-button">Agendar no WhatsApp</a>
+            </div>
+            <div class="service-item">
+                <h3>Fixação de Trilho de Cortinas</h3>
+                <p>Cortinas bem fixadas, ambiente aconchegante. Preço: R$ 60,00</p>
+                <img src="https://via.placeholder.com/150/4B0082/FFFFFF?text=Trilho+Cortina" alt="Trilho de Cortina">
+                <a href="https://wa.me/5548991036145?text=Olá! Gostaria de agendar a fixação de trilho de cortinas." class="whatsapp-button">Agendar no WhatsApp</a>
+            </div>
+            <div class="service-item">
+                <h3>Instalação de Máquina de Lavar</h3>
+                <p>Sua máquina pronta para uso, sem dores de cabeça. Preço: R$ 90,00</p>
+                <img src="https://via.placeholder.com/150/8A2BE2/FFFFFF?text=Máquina+Lavar" alt="Máquina de Lavar">
+                <a href="https://wa.me/5548991036145?text=Olá! Gostaria de agendar a instalação de máquina de lavar." class="whatsapp-button">Agendar no WhatsApp</a>
+            </div>
+            </section>
 
-  <div class="section-title">Serviços Elétricos</div>
-  <div class="service">
-    <h3>Instalação de luminária</h3>
-    <p>R$60</p>
-    <a class="btn" href="#">Agendar</a>
-  </div>
-  <div class="service">
-    <h3>Ventilador de teto</h3>
-    <p>R$120</p>
-    <a class="btn" href="#">Agendar</a>
-  </div>
+        <hr>
 
-  <div class="section-title">Manutenção & Reparo</div>
-  <div class="service">
-    <h3>Instalação de suporte para TV</h3>
-    <p>R$80</p>
-    <a class="btn" href="#">Agendar</a>
-  </div>
-  <div class="service">
-    <h3>Regulagem de portas</h3>
-    <p>R$50 por móvel</p>
-    <a class="btn" href="#">Agendar</a>
-  </div>
-  <div class="service">
-    <h3>Troca de dobradiças</h3>
-    <p>R$20 por peça</p>
-    <a class="btn" href="#">Agendar</a>
-  </div>
+        <section id="montagens" class="service-section">
+            <h2 style="color: #8A2BE2;">Móveis Montados com Perfeição!</h2>
+            <p class="slogan">Montagem e desmontagem sem estresse, para todos os tipos de móveis.</p>
+            <div class="service-item">
+                <h3>Cômoda</h3>
+                <p>Preço: R$ 70,00</p>
+                <img src="https://via.placeholder.com/150/4B0082/FFFFFF?text=Cômoda" alt="Cômoda">
+                <a href="https://wa.me/5548991036145?text=Olá! Gostaria de agendar a montagem de cômoda." class="whatsapp-button">Agendar no WhatsApp</a>
+            </div>
+            <div class="service-item">
+                <h3>Cama</h3>
+                <p>Preço: R$ 90,00</p>
+                <img src="https://via.placeholder.com/150/8A2BE2/FFFFFF?text=Cama" alt="Cama">
+                <a href="https://wa.me/5548991036145?text=Olá! Gostaria de agendar a montagem de cama." class="whatsapp-button">Agendar no WhatsApp</a>
+            </div>
+            <div class="service-item">
+                <h3>Armário 2 Portas</h3>
+                <p>Preço: R$ 120,00</p>
+                <img src="https://via.placeholder.com/150/4B0082/FFFFFF?text=Armário+2p" alt="Armário 2 Portas">
+                <a href="https://wa.me/5548991036145?text=Olá! Gostaria de agendar a montagem de armário 2 portas." class="whatsapp-button">Agendar no WhatsApp</a>
+            </div>
+            <div class="service-item">
+                <h3>Guarda-Roupa 3 Portas</h3>
+                <p>Preço: R$ 180,00</p>
+                <img src="https://via.placeholder.com/150/8A2BE2/FFFFFF?text=Guarda-Roupa+3p" alt="Guarda-Roupa 3 Portas">
+                <a href="https://wa.me/5548991036145?text=Olá! Gostaria de agendar a montagem de guarda-roupa 3 portas." class="whatsapp-button">Agendar no WhatsApp</a>
+            </div>
+            </section>
 
-  <footer>
-    <p>Contato via WhatsApp: <a class="whatsapp" href="https://wa.me/5548991036145">(48) 99103-6145</a></p>
-    <p>@XServiços</p>
-  </footer>
+        <hr>
+
+        <section id="eletrica" class="service-section">
+            <h2 style="color: #4B0082;">Eletricista e Reparos: Segurança para Seu Lar!</h2>
+            <p class="slogan">Conexões seguras e funcionais para sua tranquilidade.</p>
+            <div class="service-item">
+                <h3>Instalação de Chuveiro</h3>
+                <p>Banho quente garantido e seguro. Preço: R$ 100,00</p>
+                <img src="https://via.placeholder.com/150/8A2BE2/FFFFFF?text=Chuveiro" alt="Chuveiro">
+                <a href="https://wa.me/5548991036145?text=Olá! Gostaria de agendar a instalação de chuveiro." class="whatsapp-button">Agendar no WhatsApp</a>
+            </div>
+            <div class="service-item">
+                <h3>Tomadas e Interruptores</h3>
+                <p>Pontos de energia onde você precisa. Preço: A partir de R$ 50,00</p>
+                <img src="https://via.placeholder.com/150/4B0082/FFFFFF?text=Tomadas" alt="Tomadas e Interruptores">
+                <a href="https://wa.me/5548991036145?text=Olá! Gostaria de agendar a instalação de tomadas/interruptores." class="whatsapp-button">Agendar no WhatsApp</a>
+            </div>
+            <div class="service-item">
+                <h3>Troca de Disjuntor</h3>
+                <p>Segurança elétrica em primeiro lugar. Preço: R$ 80,00</p>
+                <img src="https://via.placeholder.com/150/8A2BE2/FFFFFF?text=Disjuntor" alt="Disjuntor">
+                <a href="https://wa.me/5548991036145?text=Olá! Gostaria de agendar a troca de disjuntor." class="whatsapp-button">Agendar no WhatsApp</a>
+            </div>
+            <div class="service-item">
+                <h3>Orçamento Elétrico</h3>
+                <p>Análise completa e soluções personalizadas. Preço: A combinar</p>
+                <img src="https://via.placeholder.com/150/4B0082/FFFFFF?text=Orçamento" alt="Orçamento Elétrico">
+                <a href="https://wa.me/5548991036145?text=Olá! Gostaria de solicitar um orçamento elétrico." class="whatsapp-button">Agendar no WhatsApp</a>
+            </div>
+            <div class="service-item">
+                <h3>Instalação de Ventiladores de Teto</h3>
+                <p>Refresque seu ambiente com segurança. Preço: R$ 120,00</p>
+                <img src="https://via.placeholder.com/150/8A2BE2/FFFFFF?text=Ventilador+Teto" alt="Ventilador de Teto">
+                <a href="https://wa.me/5548991036145?text=Olá! Gostaria de agendar a instalação de ventilador de teto." class="whatsapp-button">Agendar no WhatsApp</a>
+            </div>
+        </section>
+
+        <hr>
+
+        <section id="reparos" class="service-section">
+            <h2 style="color: #8A2BE2;">Reparos em Móveis: Vida Nova para Seus Companheiros!</h2>
+            <p class="slogan">Pequenos reparos que fazem toda a diferença na durabilidade dos seus móveis.</p>
+            <div class="service-item">
+                <h3>Porta de Armário Desnivelada</h3>
+                <p>Ajuste e alinhamento perfeito. Preço: R$ 40,00</p>
+                <img src="https://via.placeholder.com/150/4B0082/FFFFFF?text=Reparo+Porta" alt="Porta de Armário Desnivelada">
+                <a href="https://wa.me/5548991036145?text=Olá! Gostaria de agendar reparo em porta de armário." class="whatsapp-button">Agendar no WhatsApp</a>
+            </div>
+            <div class="service-item">
+                <h3>Gaveta Quebrada</h3>
+                <p>Funcionalidade restaurada. Preço: R$ 50,00</p>
+                <img src="https://via.placeholder.com/150/8A2BE2/FFFFFF?text=Reparo+Gaveta" alt="Gaveta Quebrada">
+                <a href="https://wa.me/5548991036145?text=Olá! Gostaria de agendar reparo em gaveta." class="whatsapp-button">Agendar no WhatsApp</a>
+            </div>
+            </section>
+
+        <hr>
+
+        <section id="contato" class="service-section location-info">
+            <h2 style="color: #4B0082;">Atendimento de Qualidade Onde Você Estiver!</h2>
+            <p class="slogan">Conte com a X-Serviços para todas as suas necessidades.</p>
+            <p><strong>Atendimento sem taxa de deslocamento em até 3km da:</strong></p>
+            <p>Rua Arnaldo João do Amorim, 277 - São José, Santa Catarina.</p>
+            <img src="https://via.placeholder.com/300x200/8A2BE2/FFFFFF?text=Localização" alt="Mapa da localização">
+            <p class="call-to-action">Entre em contato agora e agende seu serviço!</p>
+            <a href="https://wa.me/5548991036145" class="whatsapp-button-large">Fale Conosco no WhatsApp!</a>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 X-Serviços - Todos os direitos reservados.</p>
+    </footer>
 </body>
 </html>
+Criando o arquivo style.css para estilização
+Para dar o toque de cores e deixar seu site bonito, crie outro arquivo na mesma pasta chamado style.css. Copie e cole este código nele:
+
+CSS
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+header {
+    background-color: #4B0082; /* Roxo escuro */
+    color: #fff;
+    padding: 1.5em 0;
+    text-align: center;
+    border-bottom: 5px solid #00CED1; /* Azul turquesa */
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5em;
+}
+
+header p {
+    font-size: 1.2em;
+    margin-top: 0.5em;
+}
+
+nav {
+    background-color: #8A2BE2; /* Azul violeta */
+    padding: 0.8em 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 5px 10px;
+    transition: background-color 0.3s ease;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #00CED1; /* Azul turquesa */
+}
+
+main {
+    padding: 20px;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+.service-section {
+    margin-bottom: 40px;
+    padding: 20px;
+    background-color: #fdfdfd;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.05);
+}
+
+.service-section h2 {
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 2em;
+    color: #4B0082; /* Roxo escuro */
+}
+
+.service-section .slogan {
+    text-align: center;
+    font-style: italic;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.service-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-bottom: 30px;
+    padding: 20px;
+    background-color: #ffffff;
+    border: 1px solid #eee;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.08);
+}
+
+.service-item h3 {
+    color: #8A2BE2; /* Azul violeta */
+    margin-top: 0;
+    font-size: 1.5em;
+}
+
+.service-item p {
+    color: #555;
+    margin-bottom: 15px;
+}
+
+.service-item img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    border: 2px solid #00CED1; /* Azul turquesa */
+}
+
+.whatsapp-button {
+    display: inline-block;
+    background-color: #25D366; /* Verde WhatsApp */
+    color: #fff;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
+}
+
+.whatsapp-button:hover {
+    background-color: #1DA851;
+}
+
+.whatsapp-button-large {
+    display: block;
+    width: fit-content;
+    margin: 20px auto;
+    background-color: #00CED1; /* Azul turquesa */
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-size: 1.2em;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+
+.whatsapp-button-large:hover {
+    background-color: #00A3A6;
+}
+
+.location-info {
+    text-align: center;
+    background-color: #e6e6fa; /* Lavanda */
+    padding: 30px;
+    border-radius: 8px;
+    margin-top: 40px;
+}
+
+.location-info p {
+    font-size: 1.1em;
+    margin-bottom: 10px;
+    color: #333;
+}
+
+.location-info img {
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.call-to-action {
+    font-size: 1.3em;
+    font-weight: bold;
+    color: #4B0082;
+    margin-top: 20px;
+}
+
+hr {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), #00CED1, rgba(0, 0, 0, 0));
+    margin: 40px 0;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 30px;
+    font-size: 0.9em;
+}
+
+/* Responsividade Básica */
+@media (min-width: 768px) {
+    .service-section {
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+        gap: 20px;
+    }
+
+    .service-section .service-item {
+        flex-direction: column;
+        justify-content: space-between;
+    }
+}
