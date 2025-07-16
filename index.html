@@ -6,25 +6,107 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>X Serviços</title>
   <link rel="icon" href="https://cdn-icons-png.flaticon.com/512/861/861512.png" type="image/png" />
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background: #f8f9fa;
+      color: #333;
+    }
+    header {
+      background-color: #004aad;
+      color: #fff;
+      padding: 1rem;
+      text-align: center;
+    }
+    header img {
+      width: 60px;
+    }
+    .hero {
+      text-align: center;
+    }
+    .hero img {
+      width: 100%;
+      max-height: 300px;
+      object-fit: cover;
+    }
+    .alert {
+      background-color: #fff3cd;
+      color: #856404;
+      padding: 1rem;
+      border: 1px solid #ffeeba;
+      border-radius: 6px;
+      margin: 1rem;
+      text-align: center;
+    }
+    .section {
+      padding: 1rem;
+    }
+    .section h2 {
+      text-align: center;
+    }
+    .section img {
+      width: 100%;
+      border-radius: 8px;
+      margin: 0.5rem 0;
+    }
+    .btn {
+      background: #ff7b00;
+      color: white;
+      padding: 0.5rem 1rem;
+      border-radius: 5px;
+      text-decoration: none;
+      display: inline-block;
+      margin-top: 0.5rem;
+    }
+    footer {
+      text-align: center;
+      padding: 1rem;
+      background: #004aad;
+      color: white;
+    }
+  </style>
 </head>
 <body>
-  <header style="background:#004aad; color:#fff; padding:1rem; text-align:center;">
-    <img src="https://cdn-icons-png.flaticon.com/512/2965/2965567.png" style="width:60px;" />
+  <header>
+    <img src="https://cdn-icons-png.flaticon.com/512/2965/2965567.png" />
     <h1>X Serviços</h1>
-    <p>Montagem, elétrica e manutenção com preço justo</p>
+    <p>Montagem, elétrica e manutenção</p>
   </header>
 
-  <section style="padding:1rem; text-align:center;">
-    <div style="background-color:#fff3cd; color:#856404; padding:1rem; border:1px solid #ffeeba; border-radius:6px; margin-bottom:1rem;">
-      📍 <strong>Atendimento sem taxa de deslocamento</strong> até 3 km de:<br>
-      Rua Arnaldo João do Amorim, 277 – São José, SC.<br>
-      Fora dessa área, consulte condições via <a href="https://wa.me/5548991036145" target="_blank">WhatsApp</a>.
-    </div>
-    <img src="https://images.unsplash.com/photo-1603791440384-56cd371ee9a7?auto=format&fit=crop&w=1400&q=80" alt="Imagem ilustrativa" style="max-width:90%; border-radius:8px; border:1px solid #ccc;" />
+  <section class="hero">
+    <img src="https://images.unsplash.com/photo-1581093588401-5c4e0d19fc18?auto=format&fit=crop&w=1400&q=80" alt="Ferramentas de serviço" />
   </section>
 
-  <footer style="background:#004aad; color:#fff; text-align:center; padding:1rem;">
-    <p>Contato: <a href="https://wa.me/5548991036145" style="color:white; font-weight:bold;">(48) 99103-6145</a></p>
+  <div class="alert">
+    📍 Atendimento sem taxa de deslocamento até 3 km de:<br>
+    Rua Arnaldo João do Amorim, 277 – São José, SC.<br>
+    <a href="https://wa.me/5548991036145" target="_blank">Fale via WhatsApp</a>
+  </div>
+
+  <section class="section" id="produtos">
+    <h2>Montagem de Móveis</h2>
+    <img src="https://images.unsplash.com/photo-1622239518960-90121f2b0b77?auto=format&fit=crop&w=1400&q=80" alt="Montagem de móveis" />
+    <p>Montagem de cama, guarda-roupa, painel de TV, armários e mais.</p>
+    <a href="https://wa.me/5548991036145?text=Olá, quero agendar montagem de móveis." class="btn" target="_blank">Agendar</a>
+  </section>
+
+  <section class="section">
+    <h2>Serviços Elétricos</h2>
+    <img src="https://images.unsplash.com/photo-1604668915991-fdbac5f3b6cf?auto=format&fit=crop&w=1400&q=80" alt="Serviço elétrico" />
+    <p>Instalação de luminárias, tomadas, ventilador de teto e reparos em geral.</p>
+    <a href="https://wa.me/5548991036145?text=Olá, quero agendar um serviço elétrico." class="btn" target="_blank">Agendar</a>
+  </section>
+
+  <section class="section">
+    <h2>Reparo em Móveis</h2>
+    <img src="https://images.unsplash.com/photo-1616627457935-3ed9bc38af10?auto=format&fit=crop&w=1400&q=80" alt="Reparo de móveis" />
+    <p>Regulagem de portas, troca de dobradiças, consertos de móveis usados.</p>
+    <a href="https://wa.me/5548991036145?text=Olá, quero agendar reparo de móveis." class="btn" target="_blank">Agendar</a>
+  </section>
+
+  <footer>
+    <p>Entre em contato: <a href="https://wa.me/5548991036145" style="color:white;">(48) 99103-6145</a></p>
     <p>@XServiços</p>
   </footer>
 </body>
